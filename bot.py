@@ -1,5 +1,3 @@
-#MTAxNTYxMzc0NzU1OTE1MzY2NA.GttPDJ.DyXljp1PX9zt6qsxt7LpH34mMr4C9aXPL2n5Ws
-#https://discord.com/developers/applications/1015613747559153664/oauth2/url-generator
 
 import discord
 import random
