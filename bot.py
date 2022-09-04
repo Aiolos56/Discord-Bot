@@ -1,3 +1,7 @@
+#Top of Main.py
+
+from webserver import keep_alive
+
 import discord
 import random
 import os
@@ -51,6 +55,6 @@ class MyClient(discord.Client):
                 
 intents = discord.Intents.default()
 intents.message_content = True
-
+keep_alive()
 client = MyClient(intents=intents)
 client.run('MTAxNTYxMzc0NzU1OTE1MzY2NA.GttPDJ.DyXljp1PX9zt6qsxt7LpH34mMr4C9aXPL2n5Ws')
